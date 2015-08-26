@@ -5,7 +5,7 @@ describe Hello do
 
   it "is a test" do
    @hello = Hello.new
-   @hello.hello 
+   expect(@hello.pow(3, 2)).to eq(9) 
   end 
 
 end

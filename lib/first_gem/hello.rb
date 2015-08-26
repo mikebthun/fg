@@ -1,8 +1,8 @@
 class Hello
 
-  def hello()
+  def pow(a, b)
 
-    puts 'hello'
+    a ** b
 
   end
 
